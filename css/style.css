@@ -1,0 +1,460 @@
+:root {
+  --main-bg-color: purple;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: var(--main-bg-color);
+  font-family: 'lato', sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 88px;
+  padding: 10 25px;
+}
+
+nav ul {
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+  
+}
+nav ul li a {
+  color: black;
+  
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:active {
+  color: black;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 493px;
+  height: 23px;
+  border-radius: 6px;
+  margin: 0 10px 0 56px;
+  padding: 0 12px;
+}
+
+.btn {
+
+  padding: 5px 10px;
+  color: white;
+  background: var(--main-bg-color);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/*footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: 'Lato', sans-serif;
+} */
+.slider {
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+.image-container {
+  width: 1500px;
+  background-color:white;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: lightgreen;
+}
+.image-container{
+  cursor: pointer;
+  height: 165px;
+}
+.card{
+  max-width: 91vw;
+  margin: auto;
+}
+/*.card-item{
+  display:flex ;
+  justify-content: center;
+  flex-direction: column;
+}*/
+.my-1{
+  margin: 26px 0;
+}
+.text-center{
+  text-align: center;
+}
+.card-item{
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+  
+}
+.lines{
+  margin-left: 50px;
+}
+.lines p{
+  margin-left: 50px;
+}
+.phone{
+  margin-left: 50px;
+}
+.phone p{
+  margin-left: 50px;
+}
+.ear-buds{
+  margin-left: 50px;
+}
+.ear-buds p{
+  margin-left: 50px;
+}
+
+.lady{
+  margin-left: 50px;
+}
+.lady p{
+  margin-left: 50px;
+}
+.shirt{
+  margin-left: 50px;
+}
+.shirt p{
+  margin-left: 50px;
+}
+.watch{
+  margin-left: 50px;
+}
+.watch p{
+  margin-left: 50px;
+}
+.mens h2  {
+  margin-top: 330px;
+  margin-left: 65px;
+}
+.mens-wear{
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+.wear{
+  margin-top: 28px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.wear p{
+  margin-left: 50px;
+}
+
+.shirt-a{
+  margin-top: 28px;
+  margin-left: 50px;
+}
+.shirt-a p{
+  margin-left: 50px;
+}
+.jeans-a{
+  margin-top: 28px;
+  margin-left: 50px;
+}
+.jeans-a p{
+  margin-left: 50px;
+}
+.tshirt-a{
+  margin: 28px;
+  margin-left: 50px;
+}
+.tshirt-a p{
+  margin-left: 50px;
+}
+.celvin-a{
+  margin: 28px;
+  margin-left: 20px;
+}
+.celvin-a p{
+  margin-left: 50px;
+}
+.blazer-a{
+  margin: 28px;
+  margin-left: 20px;
+}
+.blazer-a p{
+  margin-left: 50px;
+}
+.men-wear2{
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+
+.blazer-b{
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.blazer-b p{
+  margin-left: 50px;
+}
+.jockey-b{
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.jockey-b p{
+  margin-left: 50px;
+}
+.shirt-b{
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.shirt-b p{
+  margin-left: 50px;
+}
+.tshirt-b{
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.tshirt-b p{
+  margin-left: 50px;
+}
+.jeans-b{
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.jeans-b p{
+  margin-left: 50px;
+}
+.paint{
+  margin-left: 50px;
+  margin-top: 350px;
+}
+.paint p{
+  margin-left: 50px;
+}
+.name h2{
+  margin-top: 670px;
+  margin-left: 65px;
+}
+.ldj-a{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.jen-a{
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+.jen-a p{
+  margin-left: 50px;
+}
+.ldj-b{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.jen-b p{
+  margin-left: 50px;
+}
+.ldj-c{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.jen-c p{
+  margin-left: 50px;
+}
+.ldj-d{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.jen-d p{
+  margin-left: 50px;
+}
+.ldj-e{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.jen-e p{
+  margin-left: 50px;
+}
+.ldj-f{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.jen-f p{
+  margin-left: 50px;
+}
+.sam-a{
+  margin-top: 360px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.kids-col{
+  display: flex;
+}
+.kids-a{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.kid-a{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.kid-a p{
+  margin-left: 50px;
+}
+.kidsss{
+  display: flex;
+}
+.kid-c{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.kid-c p{
+  margin-left: 50px;
+}
+.image33{
+  margin-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.ashish h2{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.fashionss{
+  display: flex;
+  margin-top: 30px;
+
+}
+.fashion1{
+  margin-left: 50px;
+}
+.fashion1 p{
+  margin-left: 50px;
+}
+.footer-buttons{
+	display: block;
+	border: 1px solid #2196f3;
+	color: #2196f3;
+	font-size: 14px;
+	font-weight: bolder;
+	background-color: white;
+	margin: 20px auto;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.footer-buttons:hover{
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: #2196f3;
+}
+.social-links{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5%;
+	justify-content: space-between;
+}
+.social-links section{
+	flex-basis: 30%;
+}
+.social-icons-footer img{
+	font-size: 37px;
+	padding: 5px;
+  height: 80px;
+  width: 60px;
+  margin-right: 190px;
+  margin-top: 30px;
+  display: flex;
+  position: absolute;
+}
+.instagram img{
+	padding: 5px;
+}
+.copyright{
+	width: 100%;
+	background-color: purple;
+	color: #fff;
+	padding: 70px;
+  padding-top: 10px;
+	text-align: center;
+}
+.akash1 {
+  margin: 20px 100px;
+}
+.akash2 {
+  margin: 20px 180px;
+}
+.akash4 {
+  margin: 20px 400px;
+}
+.maa{
+
+  display: flex;
+  position: absolute;
+  margin: 10pxpx;
+  height: 5px;
+  width: 5px;
+}
